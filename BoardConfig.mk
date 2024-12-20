@@ -230,3 +230,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Include the proprietary files BoardConfig.
 include vendor/xiaomi/aurora/BoardConfigVendor.mk
+
+# Inherit from the proprietary version
+include vendor/xiaomi/aurora/BoardConfigVendor.mk
