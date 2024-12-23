@@ -5,4 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_aurora.mk
+$(LOCAL_DIR)/yaap_aurora.mk \
+    yaap_aurora-user \
+    yaap_aurora-userdebug \
+    yaap_aurora-eng \
